@@ -3,11 +3,6 @@
 # Author: Ashita Singhal
 # ============================================================
 
-# ---- NATURE JOURNAL PDF OUTPUT SETTINGS ----
-# Run this block ONCE at the top before any plots.
-# All figures will be saved as high-resolution PDFs
-# in Nature formatting (174mm wide = 2-column, 300 dpi equivalent via vector).
-
 library(ggplot2)
 
 # Nature palette (colorblind-friendly, commonly used):
