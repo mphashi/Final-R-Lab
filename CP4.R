@@ -3,11 +3,6 @@
 # Author: Ashita Singhal
 # ============================================================
 
-# ---- NATURE JOURNAL PDF OUTPUT SETTINGS ----
-# Run this block ONCE at the top before any plots.
-# All figures will be saved as high-resolution PDFs
-# in Nature formatting (174mm wide = 2-column, 300 dpi equivalent via vector).
-
 library(ggplot2)
 
 # Nature palette (colorblind-friendly, commonly used):
@@ -70,12 +65,13 @@ library(knitr)
 library(tidyr)
 
 # Set working directory — update this path to your local project folder
-setwd("/Users/ashitasinghal/Desktop/CORNELL /6270:R:Biostat/Checkpoints")
+setwd("/Users/ashitasinghal/Desktop/R Class")
 
-# Load file
 data_obesity <- read.csv(
-  "Nutrition__Physical_Activity__and_Obesity_-_Behavioral_Risk_Factor_Surveillance_System.csv"
+  "https://data.cdc.gov/api/views/hn4x-zwk7/rows.csv?accessType=DOWNLOAD",
+  stringsAsFactors = FALSE
 )
+
 
 head(data_obesity)
 
