@@ -1,8 +1,8 @@
 # Final-R-Lab
 
 ## Project Title
-Checkpoints 2 & 4: Income-Based Disparities in Obesity Prevalence Among U.S. Adults (BRFSS, 2011–2023)
-Checkpoint 6: Physical Inactivity to Obesity 
+Income-Based Disparities in Obesity Prevalence Among U.S. Adults (BRFSS, 2011–2023)
+Shiny App: Physical Inactivity to Statewise Obesity Prevalence Among U.S. Adults (BRFSS, 2011-2023)
 
 ## Description
 This repository contains R scripts and outputs for VTPEH 6270 checkpoints analyzing 
@@ -22,13 +22,14 @@ An interactive Shiny app for exploring the physical inactivity – obesity gradi
 The app allows users to filter by year and income category, and visualize obesity 
 prevalence trends dynamically.
 
-## Research Question
-Is obesity prevalence associated with income category/physical inactivity among adults, such that higher 
+## Research Questions
+Is obesity prevalence associated with income category among adults, such that higher 
 income categories have lower obesity prevalence?
+How does physical inactivity differ statewise on obesity prevalence among adults?
 
 ## Objectives
 - Visualize and summarize obesity prevalence across six income categories
-- Identify the direction and magnitude of the income–obesity gradient
+- Identify the direction and magnitude of the income gradient
 - Simulate the relationship under varying effect sizes, sample sizes, and noise levels 
   to assess statistical power
 - Provide an interactive tool (Shiny app) for dynamic data exploration when related to physical inactivity and obesity
