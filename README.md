@@ -18,7 +18,7 @@ regarding this repository.
 
 ## 🌐 Shiny App
 An interactive Shiny app for exploring the income–obesity gradient is available here:  
-**🔗 [INSERT YOUR SHINY APP LINK HERE]**  
+(https://mphashita.shinyapps.io/BRFSSProject/)
 The app allows users to filter by year and income category, and visualize obesity 
 prevalence trends dynamically.
 
