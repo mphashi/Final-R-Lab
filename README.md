@@ -1,12 +1,12 @@
 # Final-R-Lab
 
 ## Project Title
-Income-Based Disparities in Obesity Prevalence Among U.S. Adults (BRFSS, 2011–2023)
+Checkpoints 2 & 4: Income-Based Disparities in Obesity Prevalence Among U.S. Adults (BRFSS, 2011–2023)
+Checkpoint 6: Physical Inactivity to Obesity 
 
 ## Description
 This repository contains R scripts and outputs for VTPEH 6270 checkpoints analyzing 
-the association between income category and obesity prevalence among U.S. adults, 
-using data from the Behavioral Risk Factor Surveillance System (BRFSS).
+the association between income category and obesity prevalence among U.S. adults, and physical inactivity and obesity prevalence (state wise) in the USA using data from the Behavioral Risk Factor Surveillance System (BRFSS).
 
 ## Author
 **Ashita Singhal**  
@@ -17,13 +17,13 @@ Please reach out at [as4493@cornell.edu](mailto:as4493@cornell.edu) for any ques
 regarding this repository.
 
 ## 🌐 Shiny App
-An interactive Shiny app for exploring the income–obesity gradient is available here:  
+An interactive Shiny app for exploring the physical inactivity – obesity gradient is available here:  
 (https://mphashita.shinyapps.io/BRFSSProject/)
 The app allows users to filter by year and income category, and visualize obesity 
 prevalence trends dynamically.
 
 ## Research Question
-Is obesity prevalence associated with income category among adults, such that higher 
+Is obesity prevalence associated with income category/physical inactivity among adults, such that higher 
 income categories have lower obesity prevalence?
 
 ## Objectives
@@ -31,7 +31,7 @@ income categories have lower obesity prevalence?
 - Identify the direction and magnitude of the income–obesity gradient
 - Simulate the relationship under varying effect sizes, sample sizes, and noise levels 
   to assess statistical power
-- Provide an interactive tool (Shiny app) for dynamic data exploration
+- Provide an interactive tool (Shiny app) for dynamic data exploration when related to physical inactivity and obesity
 
 ## Data Source
 **Dataset:** Nutrition, Physical Activity, and Obesity — Behavioral Risk Factor 
@@ -45,5 +45,3 @@ Surveillance System (BRFSS)
 (income category), `YearStart`, `Sample_Size`  
 **Note:** The full dataset is loaded directly from the CDC URL in CP4.R. A filtered 
 income-only subset (`data_income_subset.csv`) is included in the `data/` folder.
-
-## Repository Structure
